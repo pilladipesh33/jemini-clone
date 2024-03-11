@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+}
+
+@layer components {
+  .custom-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hover-icon {
+    @apply h-10 w-10 rounded-full hover:bg-[rgb(68,71,70)] flex items-center justify-center;
+  }
+}
