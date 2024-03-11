@@ -19,6 +19,6 @@
     align-items: center;
   }
   .hover-icon {
-    @apply h-10 w-10 rounded-full hover:bg-[rgb(68,71,70)] flex items-center justify-center;
+    @apply h-12 w-12 rounded-full hover:bg-[rgb(68,71,70)] flex items-center justify-center;
   }
 }
